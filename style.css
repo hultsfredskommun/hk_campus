@@ -14,35 +14,8 @@ Template: hultsfredskommun
 
 @import url("../hultsfredskommun/style.css");
 
-body {
-
-}
-
-/* green text */
-h2, 
-h3,
-.entry-title,
-.entry-title a,
-#nav .parent > .current-cat > a,
-.ui-tabs li.ui-tabs-selected a,
-.ui-tabs li.ui-state-default a {
-	color: #22B14C;
-}
-
 /* main color */
-#colophon,
-.slideshow article .text-area .text-content .transp-background,
-.selected-tags,
-.tags a:hover,
-.tags a:focus,
-.closeButton.bottom,
-#selected_filter li > a,
-#nav .children .current-cat > a,
-#nav ul.parent li a:hover,
-#nav ul.parent li a:focus,
-#contact-side-tab a.toggle-tab,
-.ui-tabs li.ui-state-default:hover,
-.ui-tabs li.ui-state-default:focus {
+.main-background, .top-menu-wrapper, .main-menu a:hover, .main-menu:hover a:hover, .main-menu .current-category-ancestor a, .main-menu .current-menu-item a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper {
 	background-color: #22B14C; 
 }
 
@@ -52,13 +25,7 @@ h3,
 .ui-tabs li.ui-state-active a,
 .ui-tabs li.ui-state-default a:hover,
 .ui-tabs li.ui-state-default a:focus {
-	border-bottom: 4px solid #22B14C;
-}
-#nav  .children {
-	border-left: 4px solid #22B14C;
-}
-#news .newline {
-	border-bottom: 1px solid #22B14C; /* deep blue */
+	border-bottom: 1px solid #22B14C;
 }
  
  
