@@ -28,7 +28,35 @@ Template: hultsfredskommun
 	border-bottom: 1px solid #22B14C;
 }
  
- 
+body {
+	background-image: url('/files/2013/03/rockcity_street.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.searchnavigation .form .input-wrapper {
+	background-color: white;
+}
+
+.top-wrapper .logo a img {
+	margin: -23px 0 -6px 0;
+}
+
+.main-menu {
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background-color: rgba(215, 241, 220, 1);
+	border-bottom: 1px solid #1F9900;
+}
+.main-sub-menu {
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	background-color: rgba(255, 255, 255, 1);
+}
+.main-sub-menu a {
+	margin-right: 6px;
+}
+
  /* =Responsive Structure
 ----------------------------------------------- */
 
