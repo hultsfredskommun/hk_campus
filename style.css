@@ -23,6 +23,7 @@ Template: hultsfredskommun
 	background-position: 0px 0px;
 	text-decoration: underline;
 }
+.responsive-menu a, .responsive-navigation,
 .main-background, .page-header .category-tools .related-menu, 
 .page-header .category-tools .menu-item .sub-menu, .cookieinformation, 
 .searchnavigation .form .submit, .top-menu-wrapper, 
@@ -94,14 +95,6 @@ Template: hultsfredskommun
 	border-bottom: 2px dotted #9f9f9f;
 }
 
-/* Responsive navigation */
-.responsive-menu a,
-.responsive-navigation {
-	background-color: #A41D30;
-}
-.responsive-menu a:hover {
-	color: rgb(250, 209, 209);
-}
 
 /* borders */
 .border-line--left, .category-navigation .parent li, .category-navigation .more-navigation li {
