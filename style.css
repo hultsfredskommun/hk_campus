@@ -159,7 +159,30 @@ body {
 	}
 	.main-sub-menu li {
 		background-color: #3f3f3f;
+		
+		border-radius: 3px;
+		margin: 0 12px 12px 0;
+		background-position: 0 0;
+		border: 1px solid #3f3f3f;
 	}
+	.responsive-sub-menu {
+		border-radius: 3px;
+		background-color: #3f3f3f;
+		margin: 0 12px 12px 0;
+		background-image: url(images/spr_bgButtons.png);
+		background-position: 0 0;
+		border: 1px solid #3f3f3f;
+	}
+	.responsive-sub-menu .title {
+		color: white;
+	}
+	.responsive-sub-menu .menu-icon.up {
+		background-position: -55px -61px;
+	}
+	.responsive-sub-menu .menu-icon {
+		background-position: -208px -470px;
+	}
+}
 }
 
 
