@@ -13,15 +13,115 @@ Template: hultsfredskommun
 */
 
 @import url("../hultsfredskommun/style.css");
+.link-text, a, a:active, a:focus, .article-wrapper .summary-content .entry-content .introwords, .cookieinformation .textwidget a, .category-navigation .parent li.current-cat > a > i, .category-navigation .parent li.current-cat > a 
+{
+	color: #22B14C;
+}
+.main-sub-menu .current-menu-item a
+{
+	background-image: url(images/spr_bgButtons.png);
+	background-position: 0px 0px;
+	text-decoration: underline;
+}
+.main-background, .page-header .category-tools .related-menu, 
+.page-header .category-tools .menu-item .sub-menu, .cookieinformation, 
+.searchnavigation .form .submit, .top-menu-wrapper, 
+.top-menu-wrapper .top-menu .menu-item .sub-menu, .responsive-menu a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper,
+.button,
+.top-menu-wrapper,
+.searchnavigation .form .submit {
+	background-color: #3f3f3f;
+}
+.button,
+.button:hover {
+	border-color: #3f3f3f;
+	color: white;
+}
 
-/* main color */
+
+.main-menu li.right-nav-menu-item {
+	padding: 0!important;
+}
+.main-sub-menu li.right-nav-menu-item  h4,
+.main-sub-menu {
+  /* .beta */
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1;
+  /* .gamma */
+  /*
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.2;*/
+  background-color: #3f3f3f;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.main-sub-menu .current-category-ancestor a,
+.main-sub-menu .current-menu-item a {
+  border-radius: 0;
+}
+/* Sum Menu */
+.main-sub-menu {
+  background-image: url(images/spr_bgButtons.png);
+}
+.main-sub-menu li.right-nav-menu-item,
+.main-sub-menu a {
+  color: #fff;
+  background-color: transparent;
+}
+.main-sub-menu .more-menu-ul a {
+  color: #3f3f3f;
+}
+
+.more-menu .more-menu-ul li{
+	background-color: #ffffff;
+}
+.footer-widget-wrapper .content,
+.footer-widget-wrapper ul {
+	margin-left: 0;
+}
+.footer-widget-wrapper ul li a {
+	padding-left: 0;
+}
+.footer2-wrapper,
+.footer2-wrapper a,
+.footer-image-wrapper {
+	background-color: #c6cacb;
+	color: #3f3f3f;
+}
+.footer-widget-wrapper h1.widget-title {
+	border-bottom: 2px dotted #9f9f9f;
+}
+
+/* Responsive navigation */
+.responsive-menu a,
+.responsive-navigation {
+	background-color: #A41D30;
+}
+.responsive-menu a:hover {
+	color: rgb(250, 209, 209);
+}
+
+/* borders */
+.border-line--left, .category-navigation .parent li, .category-navigation .more-navigation li {
+  border-left: 1px solid #c6cacb;
+}
+
+.border-line-main--left, .category-navigation .parent li.current-cat > .children > li, .category-navigation .more-navigation li.current-tag, .category-navigation .more-navigation li:hover {
+  border-left: 1px solid #22B14C;
+}
+.article-wrapper .entry-meta .footer-wrapper {
+  border-left: 4px solid #22B14C;
+}
+
+/* main color 
 .main-background, .top-menu-wrapper, .main-menu a:hover, .main-menu:hover a:hover, .main-menu .current-category-ancestor a, .main-menu .current-menu-item a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper {
 	background-color: #22B14C; 
 }
 
 
 
-/* BORDER COLORS */
 .ui-tabs li.ui-state-active a,
 .ui-tabs li.ui-state-default a:hover,
 .ui-tabs li.ui-state-default a:focus {
@@ -56,13 +156,17 @@ body {
 .main-sub-menu a {
 	margin-right: 6px;
 }
-
+*/
  /* =Responsive Structure
 ----------------------------------------------- */
 
-/* LOW */
-@media (max-height: 1000px) {
-
+@media only screen and (max-width: 1150px) {
+	.main-sub-menu {
+		background-color: white;
+	}
+	.main-sub-menu li {
+		background-color: #3f3f3f;
+	}
 }
 
 
