@@ -78,21 +78,11 @@ Template: hultsfredskommun
 .more-menu .more-menu-ul li{
 	background-color: #ffffff;
 }
-.footer-widget-wrapper .content,
-.footer-widget-wrapper ul {
-	margin-left: 0;
-}
-.footer-widget-wrapper ul li a {
-	padding-left: 0;
-}
 .footer2-wrapper,
 .footer2-wrapper a,
 .footer-image-wrapper {
 	background-color: #c6cacb;
 	color: #3f3f3f;
-}
-.footer-widget-wrapper h1.widget-title {
-	border-bottom: 2px dotted #9f9f9f;
 }
 
 
