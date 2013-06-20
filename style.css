@@ -40,8 +40,8 @@ Template: hultsfredskommun
 }
 
 
-.main-menu li.right-nav-menu-item {
-	padding: 0!important;
+.main-menu {
+	display:none;
 }
 .main-sub-menu li.right-nav-menu-item  h4,
 .main-sub-menu {
