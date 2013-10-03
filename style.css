@@ -13,6 +13,10 @@ Template: hultsfredskommun
 */
 
 @import url("../hultsfredskommun/style.css");
+body {
+	background-image: url(images/bg.png);
+	background-repeat: repeat-x;
+}
 .link-text, a, a:active, a:focus, .article-wrapper .summary-content .entry-content .introwords, .cookieinformation .textwidget a, .category-navigation .parent li.current-cat > a > i, .category-navigation .parent li.current-cat > a 
 {
 	color: #22B14C;
@@ -23,6 +27,10 @@ Template: hultsfredskommun
 	background-position: 0px 0px;
 	text-decoration: underline;
 }
+.searchnavigation .form .input-wrapper {
+	background: #fff;
+}
+
 .responsive-menu a, .responsive-navigation,
 .main-background, .page-header .category-tools .related-menu, 
 .page-header .category-tools .menu-item .sub-menu, .cookieinformation, 
@@ -39,6 +47,19 @@ Template: hultsfredskommun
 	color: white;
 }
 
+.hk_related .sub-menu {
+	background: #666;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+.left-content,
+.left-content h1,
+.left-content a {
+	color: black;
+}
+.slideshow-contact-puff-area .contact-icon {
+	background-position: -170px -613px;
+}
 
 .main-menu {
 	display:none;
@@ -96,6 +117,16 @@ Template: hultsfredskommun
 }
 .article-wrapper .entry-meta .footer-wrapper {
   border-left: 4px solid #22B14C;
+}
+
+.page-header {
+	background: #fff;
+}
+
+/* aside */
+.side-content .optional-text {
+	background-color: #22B14C!important;
+	color: #fff;
 }
 
 /* main color 
