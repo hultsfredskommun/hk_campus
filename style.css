@@ -47,18 +47,21 @@ body {
 	color: white;
 }
 
-.hk_related .sub-menu {
-	background: #666;
+.horizontal-list.widget.widget_hk_related_widget {
+	background: #666!important;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
+}
+.left-content {
+	background-color: white!important;
 }
 .left-content,
 .left-content h1,
 .left-content a {
-	color: black;
+	color: black!important;
 }
 .slideshow-contact-puff-area .contact-icon {
-	background-position: -170px -613px;
+	background-position: -198px -613px;
 }
 
 .main-menu {
