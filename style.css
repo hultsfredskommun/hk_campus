@@ -148,10 +148,12 @@ body {
 	margin: 0px;
 	padding: 12px;
 }
-.main .widget.widget_hk_textwidget img.image {
-	width: auto;
+.main .firstpage-pre-footer-sidebar .widget.widget_hk_textwidget {
 	margin: 24px 24px 0 0;
 	float: left;
+}
+.main .firstpage-pre-footer-sidebar .widget.widget_hk_textwidget img.image {
+	width: auto;
 }
 
 /* main color 
