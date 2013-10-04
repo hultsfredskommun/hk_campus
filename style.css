@@ -135,6 +135,20 @@ body {
 	color: #fff;
 }
 
+
+/* firstpage */
+.firstpage-sidebar {
+	width: 50%;
+}
+.firstpage-sidebar .widget.widget_hk_textwidget .inner-wrapper {
+	padding: 0;
+}
+.firstpage-sidebar .widget.widget_hk_textwidget .inner-wrapper .content {
+	padding: 0;
+}
+
+.main .widget.widget_hk_textwidget img.image {
+	width: auto;
 /* main color 
 .main-background, .top-menu-wrapper, .main-menu a:hover, .main-menu:hover a:hover, .main-menu .current-category-ancestor a, .main-menu .current-menu-item a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper {
 	background-color: #22B14C; 
