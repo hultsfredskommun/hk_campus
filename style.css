@@ -140,6 +140,11 @@ body {
 .firstpage-sidebar {
 	width: 50%;
 }
+@media only screen and (max-width: 969px) {
+.firstpage-sidebar {
+	width: 100%;
+}
+}
 .firstpage-sidebar .widget.widget_hk_textwidget {
 	border-radius: 4px;
 	background: white;
