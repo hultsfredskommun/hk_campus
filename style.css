@@ -147,14 +147,14 @@ body {
 }
 .firstpage-sidebar .widget.widget_hk_textwidget {
 	border-radius: 4px;
-	background: white;
+	background: #efffef;
 	border: 1px solid #22B14C;
 	box-shadow: 2px 2px 10px #bbb;
 	margin: 0px;
 	padding: 12px;
 }
 .main .firstpage-pre-footer-sidebar .widget.widget_hk_textwidget {
-	margin: 24px 24px 0 0;
+	margin: 24px 20px 0 0;
 	float: left;
 }
 .main .firstpage-pre-footer-sidebar .widget.widget_hk_textwidget img.image {
