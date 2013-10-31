@@ -66,9 +66,11 @@ body {
 .slideshow-contact-puff-area .contact-icon {
 	background-position: -198px -612px;
 }
-
+.top-menu-wrapper {
+	background: transparent;
+}
 .main-menu {
-	display:none;
+	display:none!important;
 }
 .main-sub-menu li.right-nav-menu-item  h4,
 .main-sub-menu {
@@ -207,8 +209,8 @@ body {
 ----------------------------------------------- */
 
 @media only screen and (max-width: 1150px) {
-	.main-sub-menu {
-		background-color: white;
+	.main-sub-menu  {
+		background: transparent!important;
 	}
 	.main-sub-menu li {
 		background-color: #3f3f3f;
