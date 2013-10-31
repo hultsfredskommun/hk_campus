@@ -140,11 +140,15 @@ body {
 
 /* firstpage */
 .firstpage-sidebar {
-	width: 50%;
+	width: 50%!important;
+}
+#ie7 .firstpage-sidebar,
+#ie8 .firstpage-sidebar {
+	width: 582px!important;
 }
 @media only screen and (max-width: 969px) {
 .firstpage-sidebar {
-	width: 100%;
+	width: 100%!important;
 }
 }
 .firstpage-sidebar .widget.widget_hk_textwidget {
