@@ -280,8 +280,14 @@ body {
 
 /* MOBIL */
 
-@media (max-width: 480px) {
-
+@media (max-width: 540px) {
+	.right-content.two,
+	.direct_link {
+		height: auto!important;
+		width: 100%!important;
+		border-radius: 0px!important;
+		border-left: 0px!important;
+	}
 }
 
 
