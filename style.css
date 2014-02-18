@@ -28,18 +28,25 @@ body {
 	text-decoration: underline;
 }
 .searchnavigation .form .input-wrapper {
-	background: #fff;
+	
 }
 
 .responsive-menu a, .responsive-navigation,
 .main-background, .page-header .category-tools .related-menu, 
 .page-header .category-tools .menu-item .sub-menu, .cookieinformation, 
-.searchnavigation .form .submit, .top-menu-wrapper, 
+.top-menu-wrapper, 
 .top-menu-wrapper .top-menu .menu-item .sub-menu, .responsive-menu a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper,
 .button,
-.top-menu-wrapper,
-.searchnavigation .form .submit {
+.top-menu-wrapper {
 	background-color: #3f3f3f;
+}
+.searchnavigation .form {
+	border: 2px solid #3f3f3f;
+	background: rgba(255,255,255,0.7);
+}
+.searchnavigation .form .submit {
+	background-color: transparent;
+	background-position: -310px -490px;
 }
 .button,
 .button:hover {
