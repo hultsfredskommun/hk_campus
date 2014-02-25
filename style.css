@@ -46,7 +46,7 @@ body {
 }
 .searchnavigation .form .submit {
 	background-color: transparent;
-	background-position: -310px -490px;
+	background-position: -260px -540px;
 }
 .button,
 .button:hover {
@@ -93,6 +93,9 @@ body {
   background-color: #3f3f3f;
   font-weight: normal;
   margin-bottom: 0;
+}
+.main-sub-menu  li a {
+  border: 0;
 }
 .main-sub-menu .current-category-ancestor a,
 .main-sub-menu .current-menu-item a {
