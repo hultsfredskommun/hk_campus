@@ -150,7 +150,9 @@ body {
 	background-color: #22B14C!important;
 	color: #fff;
 }
-
+.side-content .title.contact_title {
+	background: #22B14C;
+}
 
 /* firstpage */
 .firstpage-sidebar {
