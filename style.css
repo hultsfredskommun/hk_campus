@@ -150,7 +150,7 @@ body {
 	background-color: #22B14C!important;
 	color: #fff;
 }
-.contact-background, .contact-small-background, .side-content ul.contacts .title.contact_title {
+.contact-background, .contact-small-background, .contact.quick-link, .side-content ul.contacts .title.contact_title {
 	background: #22B14C;
 }
 .contact-background, .side-content ul.contacts {
