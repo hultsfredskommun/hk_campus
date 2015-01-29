@@ -150,8 +150,15 @@ body {
 	background-color: #22B14C!important;
 	color: #fff;
 }
-.side-content .title.contact_title {
+.contact-background, .side-content ul.contacts .title.contact_title {
 	background: #22B14C;
+}
+.contact-background, .side-content ul.contacts {
+	background: #CEF1D8;
+}
+.contact-background, .side-content ul.contacts a {
+	color: #000;
+	text-decoration: underline;
 }
 
 /* firstpage */
