@@ -45,6 +45,13 @@ Template: hultsfredskommun
 
 }
 
+.main-light-background, .hultsfred-menu .toplevelselect ul, .hultsfred-menu ul ul {
+	background-color: #3dbf6e;
+}
+/*.main-background, .quick-button, .home .slideshow-contact-puff-area .content-wrapper .left-content, .main .widget.widget_hk_related_widget, .main .widget.widget_hk_protocol, .main .widget.HK_tags_widget, .page-header .category-tools .related-menu, .page-header .category-tools .menu-item .sub-menu, .cookieinformation, .top-menu-wrapper, .top-menu-wrapper .top-menu .menu-item .sub-menu, */
+.hultsfred-menu,
+/*.old-menu .responsive-menu a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper,*/
+
 .responsive-menu a, .responsive-navigation,
 .main-background, .page-header .category-tools .related-menu,
 .page-header .category-tools .menu-item .sub-menu, .cookieinformation,
@@ -52,7 +59,7 @@ Template: hultsfredskommun
 .top-menu-wrapper .top-menu .menu-item .sub-menu, .responsive-menu a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper,
 .button,
 .top-menu-wrapper {
-	background-color: #0db14b; //#3f3f3f;
+	background-color: #0db14b!important; //#3f3f3f;
 }
 .searchnavigation .form {
 	border: 2px solid #3f3f3f;
