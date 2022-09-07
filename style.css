@@ -12,7 +12,7 @@ Text Domain: hultsfredskommun
 Template: hultsfredskommun
 */
 
-@import url("../hultsfredskommun/style.css?version=1.4");
+
 /*body {
 	background-image: url(images/bg.png);
 	background-repeat: repeat-x;
@@ -20,55 +20,78 @@ Template: hultsfredskommun
 .content {
 	word-break: break-word;
 }
+
 .footer-widget-wrapper {
 	padding-bottom: 80px;
 }
-.link-text, a, a:active, a:focus, .article-wrapper .summary-content .entry-content .introwords, .cookieinformation .textwidget a, .category-navigation .parent li.current-cat > a > i, .category-navigation .parent li.current-cat > a
-{
+
+.link-text,
+a,
+a:active,
+a:focus,
+.article-wrapper .summary-content .entry-content .introwords,
+.cookieinformation .textwidget a,
+.category-navigation .parent li.current-cat>a>i,
+.category-navigation .parent li.current-cat>a {
 	color: #22B14C;
 }
+
 .main-sub-menu {
 	border-radius: 3px;
 }
+
 .main-sub-menu .menu-item:first-child,
 .main-sub-menu .menu-item:first-child a {
 	border-radius: 3px;
 }
-.main-sub-menu .current-menu-item a
-{
+
+.main-sub-menu .current-menu-item a {
 	/*background-image: url(images/spr_bgButtons.png);
 	background-position: 0px 0px;*/
-	background-color: rgba(120,120,120,0.8);
+	background-color: rgba(120, 120, 120, 0.8);
 	text-decoration: underline;
 }
-.searchnavigation .form .input-wrapper {
 
-}
+.searchnavigation .form .input-wrapper {}
 
-.main-light-background, .hultsfred-menu .toplevelselect ul, .hultsfred-menu ul ul {
+.main-light-background,
+.hultsfred-menu .toplevelselect ul,
+.hultsfred-menu ul ul {
 	background-color: #3dbf6e;
 }
+
 /*.main-background, .quick-button, .home .slideshow-contact-puff-area .content-wrapper .left-content, .main .widget.widget_hk_related_widget, .main .widget.widget_hk_protocol, .main .widget.HK_tags_widget, .page-header .category-tools .related-menu, .page-header .category-tools .menu-item .sub-menu, .cookieinformation, .top-menu-wrapper, .top-menu-wrapper .top-menu .menu-item .sub-menu, */
 .hultsfred-menu,
 /*.old-menu .responsive-menu a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper,*/
 
-.responsive-menu a, .responsive-navigation,
-.main-background, .page-header .category-tools .related-menu,
-.page-header .category-tools .menu-item .sub-menu, .cookieinformation,
+.responsive-menu a,
+.responsive-navigation,
+.main-background,
+.page-header .category-tools .related-menu,
+.page-header .category-tools .menu-item .sub-menu,
+.cookieinformation,
 .top-menu-wrapper,
-.top-menu-wrapper .top-menu .menu-item .sub-menu, .responsive-menu a, .footer2-wrapper, .footer2-wrapper a, .footer-image-wrapper,
+.top-menu-wrapper .top-menu .menu-item .sub-menu,
+.responsive-menu a,
+.footer2-wrapper,
+.footer2-wrapper a,
+.footer-image-wrapper,
 .button,
 .top-menu-wrapper {
-	background-color: #0db14b!important; //#3f3f3f;
+	background-color: #0db14b !important;
+	/*#3f3f3f;*/
 }
+
 .searchnavigation .form {
 	border: 2px solid #3f3f3f;
-	background: rgba(255,255,255,0.7);
+	background: rgba(255, 255, 255, 0.7);
 }
+
 .searchnavigation .form .submit {
 	background-color: transparent;
 	background-position: -260px -540px;
 }
+
 .button,
 .button:hover {
 	border-color: #3f3f3f;
@@ -76,86 +99,106 @@ Template: hultsfredskommun
 }
 
 .horizontal-list.widget.widget_hk_related_widget {
-	background: #666!important;
+	background: #666 !important;
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 	border-top-left-radius: 0px;
 	border-top-right-radius: 0px;
 
 }
+
 .left-content {
-	background-color: white!important;
+	background-color: white !important;
 }
+
 .left-content,
 .left-content h1,
 .left-content a {
-	color: black!important;
+	color: black !important;
 }
+
 .slideshow-contact-puff-area .contact-icon {
 	background-position: -198px -612px;
 }
+
 .top-menu-wrapper {
 	background: transparent;
 }
+
 .top-menu-wrapper li a {
 	color: #3f3f3f;
 }
+
 .main-menu {
-	display:none!important;
+	display: none !important;
 }
-.main-sub-menu li.right-nav-menu-item  h4,
+
+.main-sub-menu li.right-nav-menu-item h4,
 .main-sub-menu {
-  /* .beta */
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1;
-  /* .gamma */
-  /*
+	/* .beta */
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1;
+	/* .gamma */
+	/*
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 1.2;*/
-  background-color: #0db14b; //#3f3f3f;
-  font-weight: normal;
-  margin-bottom: 0;
-}
-.main-sub-menu  li a {
-  border: 0;
-}
-.main-sub-menu .current-category-ancestor a,
-.main-sub-menu .current-menu-item a {
-  border-radius: 3px;
-}
-/* Sub Menu */
-.main-sub-menu {
-  /*background-image: url(images/spr_bgButtons.png);*/
-}
-.main-sub-menu li.right-nav-menu-item,
-.main-sub-menu a {
-  color: #fff;
-  background-color: transparent;
-}
-.main-sub-menu .more-menu-ul a {
-  color: #3f3f3f;
+	background-color: #0db14b;
+	/*#3f3f3f;*/
+	font-weight: normal;
+	margin-bottom: 0;
 }
 
-.more-menu .more-menu-ul li{
+.main-sub-menu li a {
+	border: 0;
+}
+
+.main-sub-menu .current-category-ancestor a,
+.main-sub-menu .current-menu-item a {
+	border-radius: 3px;
+}
+
+/* Sub Menu */
+.main-sub-menu {
+	/*background-image: url(images/spr_bgButtons.png);*/
+}
+
+.main-sub-menu li.right-nav-menu-item,
+.main-sub-menu a {
+	color: #fff;
+	background-color: transparent;
+}
+
+.main-sub-menu .more-menu-ul a {
+	color: #3f3f3f;
+}
+
+.more-menu .more-menu-ul li {
 	background-color: #ffffff;
 }
+
 .footer2-wrapper,
 .footer2-wrapper a,
 .footer-image-wrapper {
-	background-color: #e8e8e8;//#c6cacb;
+	background-color: #e8e8e8;
+	/*#c6cacb;*/
 	color: #3f3f3f;
 }
 
 
 /* borders */
-.border-line--left, .category-navigation .parent li, .category-navigation .more-navigation li {
-  border-left: 1px solid #c6cacb;
+.border-line--left,
+.category-navigation .parent li,
+.category-navigation .more-navigation li {
+	border-left: 1px solid #c6cacb;
 }
 
-.border-line-main--left, .category-navigation .parent li.current-cat > .children > li, .category-navigation .more-navigation li.current-tag, .category-navigation .more-navigation li:hover {
-  border-left: 1px solid #22B14C;
+.border-line-main--left,
+.category-navigation .parent li.current-cat>.children>li,
+.category-navigation .more-navigation li.current-tag,
+.category-navigation .more-navigation li:hover {
+	border-left: 1px solid #22B14C;
 }
 
 .page-header {
@@ -164,33 +207,45 @@ Template: hultsfredskommun
 
 /* aside */
 .side-content .optional-text {
-	background-color: #22B14C!important;
+	background-color: #22B14C !important;
 	color: #fff;
 }
-.contact-background, .contact-small-background, .article-border-wrapper .article-wrapper .single-content .quick-links .contact, .article-border-wrapper .article-wrapper .more-content .quick-links .contact, .side-content ul.contacts .title.contact_title {
+
+.contact-background,
+.contact-small-background,
+.article-border-wrapper .article-wrapper .single-content .quick-links .contact,
+.article-border-wrapper .article-wrapper .more-content .quick-links .contact,
+.side-content ul.contacts .title.contact_title {
 	background: #22B14C;
 }
-.contact-background, .side-content ul.contacts {
+
+.contact-background,
+.side-content ul.contacts {
 	background: #CEF1D8;
 }
-.contact-background, .side-content ul.contacts a {
+
+.contact-background,
+.side-content ul.contacts a {
 	color: #000;
 	text-decoration: underline;
 }
 
 /* firstpage */
 .firstpage-sidebar {
-	width: 50%!important;
+	width: 50% !important;
 }
+
 #ie7 .firstpage-sidebar,
 #ie8 .firstpage-sidebar {
-	width: 582px!important;
+	width: 582px !important;
 }
+
 @media only screen and (max-width: 969px) {
-.firstpage-sidebar {
-	width: 100%!important;
+	.firstpage-sidebar {
+		width: 100% !important;
+	}
 }
-}
+
 .firstpage-sidebar .widget.widget_hk_textwidget {
 	border-radius: 4px;
 	background: #efffef;
@@ -199,10 +254,12 @@ Template: hultsfredskommun
 	margin: 0px;
 	padding: 12px;
 }
+
 .main .firstpage-pre-footer-sidebar .widget.widget_hk_textwidget {
 	margin: 24px 20px 0 0;
 	float: left;
 }
+
 .main .firstpage-pre-footer-sidebar .widget.widget_hk_textwidget img.image {
 	width: auto;
 }
@@ -249,93 +306,91 @@ body {
 	margin-right: 6px;
 }
 */
- /* =Responsive Structure
+/* =Responsive Structure
 ----------------------------------------------- */
 
 @media only screen and (max-width: 1150px) {
-	.main-sub-menu  {
-		background: transparent!important;
+	.main-sub-menu {
+		background: transparent !important;
 	}
+
 	.main-sub-menu li {
-		background-color: #0db14b; //#3f3f3f;
+		background-color: #0db14b;
+		/*#3f3f3f;*/
 
 		border-radius: 3px;
 		margin: 0 12px 12px 0;
 		background-position: 0 0;
-		border: 1px solid #0db14b; //#3f3f3f;
+		border: 1px solid #0db14b;
+		/*#3f3f3f;*/
 	}
+
 	.responsive-menu {
 		display: none;
 	}
+
 	.responsive-sub-menu {
 		border-radius: 3px;
-		background-color: #0db14b; //#3f3f3f;
+		background-color: #0db14b;
+		/*#3f3f3f;*/
 		margin: 0 12px 12px 0;
 		/*background-image: url(images/spr_bgButtons.png);
 		background-position: 0 0;*/
-		border: 1px solid #0db14b; //#3f3f3f;
+		border: 1px solid #0db14b;
+		/*#3f3f3f;*/
 	}
+
 	.responsive-sub-menu .title {
 		color: white;
 	}
+
 	.responsive-sub-menu .menu-icon.up {
 		background-position: -55px -61px;
 	}
+
 	.responsive-sub-menu .menu-icon {
 		background-position: -208px -470px;
 	}
 }
-}
 
 
 /* LARGE */
-@media (max-width: 1000px) {
-
-}
+@media (max-width: 1000px) {}
 
 /* BETWEEN MEDIUM AND LARGE */
 
-@media (max-width: 900px) {
-
-}
+@media (max-width: 900px) {}
 
 
 /* MEDIUM */
 
-@media (max-width: 800px) {
-
-}
+@media (max-width: 800px) {}
 
 
 /* BETWEEN SMALL AND MEDIUM */
 
-@media (max-width: 750px) {
-
-}
+@media (max-width: 750px) {}
 
 
 /* SMALL */
 
-@media (max-width: 650px) {
-
-}
+@media (max-width: 650px) {}
 
 
 /* MOBIL */
 
 @media (max-width: 540px) {
+
 	.right-content.two,
 	.direct_link {
-		height: auto!important;
-		width: 100%!important;
-		border-radius: 0px!important;
-		border-left: 0px!important;
+		height: auto !important;
+		width: 100% !important;
+		border-radius: 0px !important;
+		border-left: 0px !important;
 	}
 }
 
 
 
 
-@media print {
-
-}
+@media print {}
